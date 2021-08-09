@@ -1,0 +1,18 @@
+{
+  "name": "req-methods",
+  "version": "1.0.0",
+  "description": "get,post,update,delete",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm start",
+    "start": "node server.js"
+  },
+  "author": "Shan",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "express": "^4.17.1",
+    "mongoose": "^5.13.5",
+    "nodemon": "^2.0.12"
+  }
+}

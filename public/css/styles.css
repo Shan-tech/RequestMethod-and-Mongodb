@@ -1,0 +1,19 @@
+#container {
+  border-radius: 10px;
+  border-width: 2px;
+  border-color: #000000;
+  margin: 15% 25%;
+  box-sizing: border-box;
+  padding: 3%;
+}
+#msg {
+  background-color: rgba(128, 128, 128, 0.151);
+  margin-top: 5%;
+  margin-left: 8%;
+  /* width: 40%; */
+  /* height: 60px; */
+  border-radius: 10px;
+  box-sizing: border-box;
+  padding: 3%;
+  display: none;
+}

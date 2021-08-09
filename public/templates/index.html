@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+
+  <head>
+    <link rel="stylesheet"href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css"/>
+    <link rel="stylesheet" href="/css/styles.css" />
+    <title>Nodetask</title>
+  </head>
+
+  <body>
+    <section class="ui container" style="margin: 10%;">
+      <h1 class="ui center aligned header">Vote Eligiblity</h1>
+
+      <div class="ui breadcrumb">
+        <a class="active section" >Add to mongo</a>
+        <div class="divider">/</div>
+        <a class="section" href="/viewdata">View data</a>
+        <div class="divider">/</div>
+        <a class="section" href="/update">Update</a>
+        <div class="divider">/</div>
+        <a class="section" href="/del">Delete</a>
+      </div>
+         <hr />
+
+      <section class="ui container">
+        &emsp;&emsp;
+          <div class="ui input focus" style="margin-left: 8%;">
+          <input type="text" id="name" placeholder="name" /> &emsp;
+          <input type="text" id="age" placeholder="age" /> &emsp;
+          <button onclick="add()" class="ui inverted green button">ADD</button>
+        </div>
+        <div id="msg" >
+          <p id="innerMsg">
+          </p>
+         </div>     
+         </section>
+    </section>
+  </body>
+
+  <script src="../js/func.js"></script>
+   
+    
+</html>
