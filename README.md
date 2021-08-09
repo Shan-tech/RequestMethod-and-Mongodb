@@ -26,7 +26,7 @@ nodemon server
 
 👤 **Shan**
 
-* Website: shan-tech.github.io
+* Website: [Shan-tech](https://shan-tech.github.io)
 
 ## Support ✌
 
